@@ -19,9 +19,13 @@
 ### Features
 ---
 
--   [ ] User can see a box which has a `border-radius` property applied to it
--   [ ] User can change all 8 possible values of the border-radius in order to create a complex shape
--   [ ] User can copy the resulting CSS to the clipboard
+-   [x] Finish Navbar;
+-   [ ] Finish Title;
+-   [ ] Finish Box;
+-   [ ] Finish Box Controllers;
+-   [ ] User can see a box which has a `border-radius` property applied to it;
+-   [ ] User can change all 8 possible values of the border-radius in order to create a complex shape;
+-   [ ] User can copy the resulting CSS to the clipboard;
 
 
 ### 🛠 Tecnologias
@@ -30,14 +34,14 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Python](https://wiki.python.org/moin/BeginnersGuide)
+- [Nodejs](https://nodejs.org/api/documentation.html)
 
 
 ### Pré-requisitos
 ---
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Python](https://wiki.python.org/moin/BeginnersGuide). 
+[Git](https://git-scm.com), [Nodejs](https://nodejs.org/api/documentation.html). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando o Back End (servidor)

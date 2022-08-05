@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #000204, #1b1c1d, #303132, #464749, #5e5f60);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#logo-img {
+    margin-right: 0.5rem;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    color: #C5C7C8;
+    padding-top: 1.8rem !important;
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover {
+    color: #5E5F60 !important;
+}
