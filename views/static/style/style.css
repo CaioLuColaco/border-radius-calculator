@@ -10,17 +10,17 @@ html {
 body {
     background-image: linear-gradient(to left bottom, #000204, #1b1c1d, #303132, #464749, #5e5f60);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     width: 100%;
     height: 100%;
 }
 
 #logo-img {
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
 .navbar {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #C5C7C8;
     padding-top: 1.8rem !important;
     padding-left: 8rem !important;
@@ -28,9 +28,91 @@ body {
 }
 
 .navbar-brand {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Square Peg', cursive;
 }
 
 .nav-link:hover {
     color: #5E5F60 !important;
+}
+
+.primary-title {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 3px 0px #5e5f60;
+    font-family: 'Square Peg', cursive;
+}
+
+.box-primary-title {
+    margin-top: 3rem;
+}
+
+.description-title {
+    color: #C5C7C8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.box-preview {
+    margin-top: 0.2rem;
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          #ff0303 0%, 
+          #ff7903 25%, 
+          #ff6c03 50%, 
+          #fa2a0a 100% 0
+    );  
+    /* background-image: linear-gradient(
+          -45deg, 
+          #ff8432 0%, 
+          #F35F6A 25%, 
+          #C4588E 51%, 
+          #825B96 100% 0
+    );   */
+    animation: AnimateBG 5s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+.code-box code {
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #fff;
+    background-color: rgba(189,189,189,0.1);
+    padding: 15px 8px 15px 17px;
+    border-radius: 5px;
+}
+
+.painel-control p {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.code-box p {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+#selectable {
+    color: #ff6c03;
+}
+.box-preview {
+    border-radius: 10% 100% 50% 50% / 10% 0% 0% 0%;
 }

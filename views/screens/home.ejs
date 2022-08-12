@@ -1,6 +1,46 @@
 <%- include ('./../elements/header.ejs') %>
-<body>
-    <%- include ('./../elements/navbar.ejs') %>
+    <body>
+        <%- include ('./../elements/navbar.ejs') %>
 
-</body>
+        <div class="box-primary-title container-fluid d-flex justify-content-center">
+            <h1 class="primary-title">Border Radius Calculator</h1>
+        </div>
+
+        
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="box-preview"></div>
+        </div>
+        
+        <div class="box-description container-fluid d-flex justify-content-center mt-3">
+            <h3 class="description-title">configure the box</h3>
+        </div>
+
+        <div class="container text-center mt-3">
+            <div class="row">
+                <div class="painel-control col text-end">
+                    <p>Painel de Controle</p>
+                    
+                </div>
+
+                <div class="code-box col text-start">
+                    <p>CSS Code:</p>
+                    <code id="selectable">
+                        .code-box code {
+                            font-family: 'Space Mono', monospace;
+                            width: 100%;
+                            margin: 0 auto;
+                            display: block;
+                            line-height: 1.4;
+                            letter-spacing: 0.2px;
+                            border-left: 3px solid #fff;
+                            background-color: rgba(189,189,189,0.1);
+                            padding: 15px 8px 15px 17px;
+                            border-radius: 5px;
+                        }
+                </code>
+                </div>
+            </div>
+            
+        </div>
+    </body>
 </html>
