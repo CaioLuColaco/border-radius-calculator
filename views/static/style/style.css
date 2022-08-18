@@ -3,9 +3,6 @@
     margin: 0
 }
 
-html {
-    height: 100%;
-}
 
 body {
     background-image: linear-gradient(to left bottom, #000204, #1b1c1d, #303132, #464749, #5e5f60);
